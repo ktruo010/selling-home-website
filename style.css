@@ -1,0 +1,28 @@
+:root {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 1em 1em;
+    padding: 2em 1em;
+    background-color: rgb(85, 216, 85);
+    color: #ffffff;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photos {
+    width: 100%;
+    padding: .5em .5em;
+}
